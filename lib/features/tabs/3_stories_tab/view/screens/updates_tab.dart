@@ -27,8 +27,8 @@ class UpdatesTab extends StatelessWidget {
                 physics: BouncingScrollPhysics(),
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) => StatusContainer(
-                  statusModel: statusModel[index],
-                ),
+                      statusModel: statusModel[index],
+                    ),
                 separatorBuilder: (context, index) => SizedBox(
                       width: 20,
                     ),
@@ -62,8 +62,8 @@ class UpdatesTab extends StatelessWidget {
               shrinkWrap: true,
               physics: BouncingScrollPhysics(),
               itemBuilder: (context, index) => ChannelsRow(
-                channelsModel: channelModel[index],
-              ),
+                    channelsModel: channelModel[index],
+                  ),
               separatorBuilder: (context, index) => SizedBox(
                     height: 15,
                   ),
